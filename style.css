@@ -73,3 +73,38 @@
     color: red;
 }
 
+.footer-section {
+    width: auto;
+    margin: auto;
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    color: darkgrey;
+}
+
+.footer-download {
+    justify-content: space-between;
+}
+
+
+
+.footermain-logo-and-apps-icon-box {
+    width: 1430px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer-main-logo {
+    width: 25%;
+    float: left;
+}
+
+.footer-download {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main-logo-and-apps-icon {
+    background: gray;
+}
