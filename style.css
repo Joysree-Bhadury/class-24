@@ -79,7 +79,8 @@
     /* display: flex; */
     justify-content: space-between;
     padding: 20px 0 20px 0;
-    color: darkgrey;
+    color: black; 
+    margin-top: 20px;
 }
 
 .footer-download {
@@ -93,6 +94,8 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .footer-main-logo {
@@ -107,4 +110,44 @@
 
 .footer-main-logo-and-apps-icon {
     background: gray;
+}
+
+.footer-address h2 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.footer-address h3 {
+    font-size: 14px;
+}
+
+.footer-address p {
+    font-size: 14px;
+}
+
+.footer-address {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1430px;
+    margin: auto;
+}
+
+.footer-main-section {
+    margin-top: 20px;
+    width: 1430px;
+    margin: auto;}
+
+.footer-address-box {
+    background: #c4c1c0;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+}
+
+.goggle-download img,
+.goggle-play img {
+    max-width: 100%;
+    width: 250px;
+    margin-right: 10px;
 }
