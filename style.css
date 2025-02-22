@@ -151,3 +151,36 @@
     width: 250px;
     margin-right: 10px;
 }
+
+.main-news-box {
+    width: 985px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-news-box-1 {
+    width: 745px;
+}
+
+.section-news-box-2 {
+    width: 250px;
+}
+
+.sub-menu {
+    width: 1430px;
+    margin: auto;
+}
+
+.sub-menu ul {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.sub-menu ul li a {
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
