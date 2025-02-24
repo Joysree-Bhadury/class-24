@@ -243,7 +243,7 @@ body {
 }
 
 .left-box-title h1 {
-    font-size: 25%;
+    font-size:35px;
     line-height: 155%;
 }
 
@@ -263,6 +263,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .section-2-item {
@@ -310,6 +311,15 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.section-3 {
+    width: 1430px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+
 
 
 
