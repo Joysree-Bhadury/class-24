@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: SolaimanLipiNormal;
+    font-size: 15px;
+    line-height: 150%;
+  }
+  @font-face {
+    font-family: SolaimanLipiNormal;
+    src: url(fonts/solaimanlipi_20-04-07.eot);
+    src: url(fonts/solaimanlipi_20-04-07.eot) format("embedded-opentype"),
+      url(fonts/solaimanlipi_20-04-07.woff) format("woff"),
+      url(fonts/solaimanlipi_20-04-07.ttf) format("truetype"),
+      url(fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal) format("svg");
+  }
+
+
 .header-ad-matter {
     width: 1430px;
     margin: 5px auto 0;
@@ -156,6 +171,7 @@
     width: 985px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 3px solid gray;
 }
 
 .section-news-box-1 {
@@ -183,4 +199,119 @@
     text-decoration: none;
     display: block;
 }
+
+.main-box {
+    width: 1430px;
+    margin: auto;
+    display: flex;
+}
+
+.main-box-left {
+    width: 67%;
+}
+
+.box-lft-matter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.box-left-matter-lead {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-left-matter-second-lead {
+    width: 28%;
+}
+
+.left-box-img img {
+    max-width: 100%;
+}
+
+.box-left-matter-second-lead img {
+    max-width: 100%;
+}
+
+.left-box-img {
+    width: 50%;
+}
+
+.left-box-title {
+    width: 45%;
+}
+
+.left-box-title h1 {
+    font-size: 25%;
+    line-height: 155%;
+}
+
+.left-box-title >p {
+    color: black;
+    line-height: 150%;
+    font-size: 15px;
+}
+
+.box-left-matter-second-lead h2 {
+    font-size: 20px;
+    line-height: 155%;
+}
+
+.section-2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2-item {
+    width: 30%;
+}
+
+.section-2-item-title-image {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-2-item-title {
+    width: 60%;
+}
+
+.section-2-item-image {
+    width: 35%;
+}
+
+.section-2-item-image img {
+    max-width: 100%;
+}
+
+.section-2-item-title h2 {
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 160%;
+    color: black;
+    font-weight: normal;
+}
+
+.section-2-item-title-text p {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.main-box-right {
+    background: cyan;
+    width: 30%;
+    height: 500px;
+}
+
+.main-box-matter {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
