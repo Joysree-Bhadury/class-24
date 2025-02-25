@@ -302,7 +302,6 @@ body {
 }
 
 .main-box-right {
-    background: cyan;
     width: 30%;
     height: 500px;
 }
@@ -313,10 +312,47 @@ body {
 }
 
 .section-3 {
-    width: 1430px;
+    width: 100%;
     margin: auto;
     justify-content: space-between;
     display: flex;
+    background: #999999;
+    padding: 22px;
+}
+
+.section-3-matter-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-matter-box-item-1 {
+    width: 30%;
+}
+
+.section-3-item-image img {
+    max-width: 100%;
+}
+
+
+.img-fluid{
+    max-width: 100%; 
+}
+
+.section-2-item-title h2 a {
+    text-decoration: none;
+    color: #555;
+}
+
+.ad-box-item a img {
+    display: flex;
+}
+
+.ad-box-item {
+    margin-bottom: 20px;
+}
+
+.ad-box-item:last-child {
+    margin-bottom: 0;
 }
 
 
