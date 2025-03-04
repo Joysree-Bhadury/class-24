@@ -407,8 +407,8 @@ body {
 }
 
 .comment-box-image {
-    width: 50%;
- }
+    width: 40%;
+}
 
 .comment-box-item-1 {
     display: flex;
@@ -424,6 +424,47 @@ body {
 
  .coomet-box-title P {
     font-size: 18px;
+}
+
+.coomet-box-title {
+    width: 55%;
+}
+
+.coomet-box-title {
+    margin-left: 20px;
+    width: 50%;
+}
+
+
+.titel-box>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.titel-box>ul {
+    list-style: none;
+}
+
+.titel-box {
+    overflow-y: scroll;
+    height: 50px;
+}
+
+.titel-box::-webkit-scrollbar {
+    width: 10px;
+}
+
+.titel-box::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 10px;
+}
+
+.comment-section a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 26px;
 }
 
 
