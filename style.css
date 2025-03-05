@@ -94,8 +94,8 @@ body {
     /* display: flex; */
     justify-content: space-between;
     padding: 20px 0 20px 0;
-    color: black; 
-    margin-top: 20px;
+    color: black;
+    margin-top: 68px;
 }
 
 .footer-download {
@@ -436,23 +436,25 @@ body {
 }
 
 
-.titel-box>ul>li>a {
+.title-box>ul>li>a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.titel-box>ul {
+.title-box>ul>li {
     list-style: none;
 }
 
-.titel-box {
+.title-box {
     overflow-y: scroll;
-    height: 50px;
+    height: 100px;
+    background-color: aqua;
 }
 
-.titel-box::-webkit-scrollbar {
+.title-box:-webkit-scrollbar {
     width: 10px;
 }
 
@@ -466,6 +468,19 @@ body {
     color: #666666;
     font-size: 26px;
 }
+
+.matter-box-scroll {
+    margin-bottom: 30px;
+    width: 70%;
+    height: auto;
+}
+
+.middle-box-ad {
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+}
+
 
 
 
