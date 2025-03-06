@@ -481,6 +481,18 @@ body {
     margin-top: 90px;
 }
 
+.news-section-box {
+    width: 1430px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news-section-box-matter {
+    width: 22%;
+}
+
 
 
 
