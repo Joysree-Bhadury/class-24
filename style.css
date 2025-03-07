@@ -75,9 +75,10 @@ body {
 
 .main-menu ul li a {
     color: white;
-    padding: 10px;
+    padding: 34px;
     text-decoration: none;
     display: block;
+    font-size:medium;
 }
 
 .social-icon-box ul li a {
@@ -303,7 +304,7 @@ body {
 
 .main-box-right {
     width: 30%;
-    height: 500px;
+    height: auto;
 }
 
 .main-box-matter {
@@ -316,7 +317,6 @@ body {
     margin: auto;
     justify-content: space-between;
     display: flex;
-    background: #999999;
     padding: 22px;
 }
 
@@ -360,7 +360,6 @@ body {
     margin: auto;
     justify-content: space-between;
     display: flex;
-    background: #999999;
 }
 
 .section-4-matter-box {
@@ -449,9 +448,8 @@ body {
 }
 
 .title-box {
-    overflow-y: scroll;
+    overflow-x: scroll;
     height: 100px;
-    background-color: aqua;
 }
 
 .title-box:-webkit-scrollbar {
@@ -476,9 +474,10 @@ body {
 }
 
 .middle-box-ad {
-    width: 80%;
-    margin: auto;
-    margin-top: 90px;
+    width: 1430px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .news-section-box {
@@ -487,11 +486,50 @@ body {
     margin: auto;
     justify-content: space-between;
     margin-bottom: 20px;
+    flex-direction: column;
 }
 
 .news-section-box-matter {
-    width: 22%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
 }
+
+.news-section-box-matter-1 {
+    width: 24%;
+    justify-content: space-between;
+}
+
+.news-section-matter-box-image img {
+    width: 100%;
+}
+
+.ad-box-item a img {
+    width: 100%;
+}
+
+.ad-box {
+    margin-bottom: 20px;
+}
+
+.news-section-box-title h3 {
+    font-size: 31px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid sandybrown;
+    color: sandybrown;
+}
+
+.section-3-item-title {margin-bottom: 13px;}
+
+.section-4-item-title {
+    margin-bottom: 13px;
+}
+
+.section-4-item-image {
+    margin-bottom: 10px;
+}
+
 
 
 
