@@ -589,6 +589,65 @@ body {
     margin-bottom: 20px;
 }
 
+.video-section-box-title {
+    display: flex;
+}
+
+.video-section-box-item h3 {
+    font-size: 32px;
+}
+
+.second-middle-add {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 1430px;
+}
+
+.sports-box-title {
+    display: flex;
+    justify-content:normal;
+    margin: auto;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+.sports-box-title h2 {
+    font-size: 50px;
+}
+
+.sports-box-content {
+    width: 1430px;
+    margin: auto;
+}
+
+.sports-sub-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.sports-sub-menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.sports-box-title h2 {
+    margin-right: 27px;
+}
+
+
+
+
+
+
 
 
 
